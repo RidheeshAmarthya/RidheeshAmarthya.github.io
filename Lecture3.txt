@@ -1,0 +1,22 @@
+SS from 1440p for assignment
+No horizontal scrolling
+
+HTML
+Note the gap btw html4 and 5 - XML
+Line Mode >> Lunx (new) (text based)
+
+Netscape faster as compared to Mosaic but killed by IE by microsoft which was free as compared to 49.95, apache killed the server buisness
+It went bankrupt and was bought by american ____ who wrote it off as a loss and gave it out as open source, which was then adapted by mozzila as firefox
+
+webkit >> safari which was prop by apple which was eventually open sourced as well, which was adopted by google and chrome used it! then they decided to create their own branch
+Chromium was total rewrite but borrowed a lot
+
+Comments do not nest
+
+Page49 lecture 3 >> assignment1 urls on the top
+space??? clicking off screen takes you to the section
+
+PNG = lossless
+JPEG = lossy
+
+robotx.txt has the same info as the tag <meta name='robot' follow or no follow
