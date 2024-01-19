@@ -1,2 +1,35 @@
 CSS
 
+overrides defaults
+still controlled by the www (W3C) unlike html (check CSS/current-work and notice the colors and status codes)
+1.inline
+2. <style> in <head>
+3. <link> for external files
+
+Cascading might cause conflicts (multiple includes)
+
+. is used for classes
+P.special {
+    color : green;
+    border: solid red;
+}
+<LINK href='test.css'>
+<P class='special'>this will be displayed with the css
+
+P.something: Applies only to paragraphs (notice the P)
+.something: Applies to any element, generic class
+
+id was supposed to be used only once, but it might not be. It is same as class?
+
+<div> block tag, no predefined properties
+<div class="class name">
+
+<span> same as div but smaller (one word)
+
+CSS one file for a site, same style repeated and cached for speed
+
+Serif fonts vs sans serif (serif has the extrusions, sans has them cut off)
+
+Pseudo elements and classes (elements used for link color change for example)
+
+corssed lines mean that there was a conflict and lost (in inspect)
