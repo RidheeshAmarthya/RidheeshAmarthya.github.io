@@ -122,10 +122,10 @@ html,body {
 
 #img3{
     flex: 1 1 auto;
-    width: 320px; /* Adjust as needed */
+    width: 300px; /* Adjust as needed */
     height: 550px;
     object-fit: cover;
-    padding: 20px 10px 0px 550px;
+    padding: 40px 10px 0px 560px;
 }
   
 
@@ -242,14 +242,16 @@ html,body {
     -ms-transform: translate(-50%, -50%);
     background-color: #af9453; /* Dark background for the button */
     color: #ffffff; /* White text for the button */
-    border: 2px solid #ffffff; /* Add a white border */
+    border: 1px solid #ffffff; /* Add a white border */
     padding: 15px 20px 15px 20px;
     cursor: pointer;
     transition: background-color 0.3s;
     font-size: 16px;
     padding: 12px 24px;
     cursor: pointer;
-    margin: 100px 0px 0px 267px;
+    margin: 100px 0px 0px 274px;
+    width: 240px;
+
   }
 
   .button-text {
@@ -262,7 +264,7 @@ html,body {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    margin: -200px 0px 0px 267px;
+    margin: -200px 0px 0px 277px;
 }
 
 .button-text2 {
@@ -276,7 +278,7 @@ html,body {
     font-weight: 500;
     transform: translate(-50%, -50%);
     z-index: 1;
-    margin: 0px 0px 0px 267px;
+    margin: 0px 0px 0px 277px;
 }
 
 .button-text-img1 {
@@ -312,8 +314,8 @@ html,body {
 .button-img1 {
     background-color: #af9453; /* Dark background for the button */
     color: #ffffff; /* White text for the button */
-    border: 2px solid #ffffff; /* Add a white border */
-    padding: 15px 20px 15px 20px;
+    border: 1px solid #ffffff; /* Add a white border */
+    padding: 15px 20x 15px 20px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     cursor: pointer;
@@ -325,7 +327,8 @@ html,body {
     margin-top: 50px;  
     margin-left: 30px; 
     z-index: 1;
-    margin: 400px 0px 0px 165px;
+    margin: 400px 0px 0px 167px;
+    width: 200px;
 
 }
 
