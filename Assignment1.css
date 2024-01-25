@@ -1,0 +1,153 @@
+body, html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    color: #a28e50;
+    padding: 30px;
+    width: 1000px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    position: fixed; /* Change this line */
+
+
+}
+.navbar a {
+    color:#3f3f3f; 
+    padding-left :15px; 
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar .home-button {
+    color: #6b5e43; 
+}
+
+.centered-text {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+}
+
+html,body {
+    height: 100%;
+}  
+.wrapper {
+    height: 100%;
+}
+.fixed-bg {
+    height: 100%;
+    color: white;
+}
+
+.fixed-bg h1 {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fixed-bg h1, .scroll-bg h3 {
+    margin: 0;
+    padding: 0;
+}
+.fixed-bg {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    text-align: center;
+    display: table;
+    background-size: 1000px;
+}
+.bg-1 {
+    background-image: url('Assets/Assignment1/image3.png');
+    height: 650px;
+    position: relative;
+    background-position: bottom;
+}
+.bg-2 {
+    background-image: url('Assets/Assignment1/image2.png');
+    height: 650px;
+    position: relative;
+    background-position: top;
+}
+
+
+.scroll-bg {
+    background-color: #ffffff;
+    color: #676767;
+    width: 1000px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#img1{
+    flex: 1 1 auto;
+    width: 150px; /* Adjust as needed */
+    height: 400px;
+    object-fit: cover;
+    padding: 80px 20px 80px 40px;
+}
+
+#img2{
+    flex: 1 1 auto;
+    width: 500px; /* Adjust as needed */
+    height: 400px;
+    object-fit: cover;
+    padding: 80px 40px 80px 40px;
+}
+  
+
+.testimonial-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+.arrow {
+    color: #a5987a;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.testimonial {
+    flex-grow: 2;
+    text-align: center;
+}
+
+.quote {
+    font-size: 3em;
+    line-height: 0.1em;
+    color: #2b2b2b;
+}
+
+.testimonial-text {
+    font-size: 3em;
+    margin: 40px 150px 40px 150px;
+}
+
+.testimonial-author {
+    font-size: 1em;
+    font-style: italic;
+    color: #aa9157;
+}
