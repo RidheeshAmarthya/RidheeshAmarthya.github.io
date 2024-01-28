@@ -31,7 +31,7 @@ body, html {
     text-decoration: none;
 }
 .navbar .home-button {
-    color: #7b6a40; 
+    color: #af9453; 
 }
 
 .centered-text {
@@ -329,6 +329,9 @@ html,body {
     z-index: 1;
     margin: 400px 0px 0px 167px;
     width: 200px;
+}
 
+a:hover {
+    color: #af9453; /* Change this to the color you want */
 }
 
